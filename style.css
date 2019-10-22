@@ -1,0 +1,199 @@
+body
+{
+    background-color: #303030;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+#container
+{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.rectangle
+{
+    text-align: center;
+    width: 960px;
+    margin: 20px;
+    
+}
+
+#logo
+{
+    float: left;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 600px;
+    font-size: 70px;
+    text-align: left;
+}
+
+#clock
+{
+    float: left;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 70px;
+    text-align: left;
+}
+
+.square
+{
+    width: 50%;
+    float: left;
+}
+
+.tile1
+{
+    width: 230px;
+    height: 142px;
+    margin: 10px;
+    background: #218cee;
+    float: left;
+    text-align: center;
+}
+
+.tile1:hover
+{
+    background: #107bdd;
+}
+
+.tile2
+{
+    width: 230px;
+    height: 142px;
+    margin: 10px;
+    background: #666666;
+    float: left;
+    text-align: center;
+}
+
+.tile2:hover
+{
+    background: #555555;
+}
+
+.tile3
+{
+    width: 230px;
+    height: 142px;
+    margin: 10px;
+    background: #91d153;
+    float: left;
+    text-align: center;
+}
+
+.tile3:hover
+{
+    background: #80c042;
+}
+
+.tile4
+{
+    width: 420px;
+    height: 82px;
+    margin: 10px;
+    background: #ef9b26;
+    text-align: center;
+    font-size: 26px;
+    padding: 30px;
+    line-height: 150%;
+}
+
+.tile5
+{
+    width: 420px;
+    height: 244px;
+    margin: 10px;
+    background: #666666;
+    text-align: justify;
+    padding: 30px;
+}
+
+.li
+{
+    width: 105px;
+    height: 142px;
+    margin: 10px;
+    background: #2867b2;
+    float: left;    
+}
+
+.li:hover
+{
+    background: #1756a1;
+}
+
+.git
+{
+    width: 105px;
+    height: 142px;
+    margin: 10px;
+    background: #34d058;
+    float: left;
+}
+
+.git:hover
+{
+    background: #23c047;
+}
+
+.fb
+{
+    width: 105px;
+    height: 142px;
+    margin: 10px;
+    background: #4668b3;
+    float: left;
+}
+
+.fb:hover
+{
+    background: #3557a2;
+}
+
+
+.tw
+{
+    width: 105px;
+    height: 142px;
+    margin: 10px;
+    background: #3095d3;
+    float: left;
+}
+
+.tw:hover
+{
+    background: #2084c2;
+}
+
+a.tilelink
+{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    width: 230px;
+    height: 142px;
+}
+
+a.sociallink
+{
+    display: block;
+    width: 105px;
+    height: 142px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a.logolink
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+
+
+
