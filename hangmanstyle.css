@@ -1,0 +1,74 @@
+body{
+
+    background-color: black;
+    color: orange;
+    font-size: 28px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+
+}
+
+#box{
+
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gameBoard{
+
+    width: 900px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 48px;
+    text-align: center;
+    min-height: 60px;
+}
+
+#alphabet{
+
+    width: 450px;
+    float: left;
+    text-align: center;
+    min-height: 350px;
+}
+
+#hangman{
+
+    width: 450px;
+    float: left;
+    text-align: center;
+    min-height: 350px;
+}
+
+.letter{
+
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 3px gray solid;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.letter:hover{
+
+    background-color: #222222;
+    color: white;
+    border: 3px solid white;
+}
+
+.reset{
+
+    color: green;
+    cursor: pointer;
+    font-size: 48px;
+}
+
+.reset:hover{
+
+    color: gray;
+}

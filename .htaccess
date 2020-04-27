@@ -10,3 +10,5 @@ RewriteRule who-am-I user.html
 RewriteRule java-website-developer-spring usertodo.html
 RewriteRule cv-java-developer cv.html
 RewriteRule contact-developer contact.html
+
+RewriteRule hangman-game hangman.html
