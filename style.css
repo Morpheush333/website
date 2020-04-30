@@ -202,8 +202,18 @@ a.logolink
 
 a.lg
 {
-    color: #555555;
+    color: #ef9b26;
     text-decoration: none;
+    font-size: 36px;
+    display: block;
+    margin: 20px;
+}
+
+a.lg:hover
+{
+    color: orange;
+    text-decoration: none;
+    font-size: 36px;
 }
 
 
