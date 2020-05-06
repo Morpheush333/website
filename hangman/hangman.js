@@ -1,4 +1,23 @@
-var key = "Hit two birds with one stone";
+var keys = ["Better late than never",
+"Hit two birds with one stone",
+"All that glitters is not gold",
+"Never look a gift horse in the mouth",
+"Easy come easy go", 
+"Necessity is the mother of invention", 
+"Two heads are better than one", 
+"Better safe than sorry", 
+"Measure twice cut one", 
+"Money is the root of all evil", 
+"The early bird catches the worm", 
+"No man is an island", 
+"Two wrongs dont make a right", 
+"A cat has nine lives"];
+
+var randomKey = Math.floor(Math.random()*keys.length);
+
+if(randomKey > keys.length-1) haslo_losowe = 1;
+
+var key = keys[randomKey];
 key = key.toUpperCase();
 
 var repeat = 0;
